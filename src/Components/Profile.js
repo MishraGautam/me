@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileImage from "./ProfileImage";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 import ProfileDetails from "./ProfileDetails";
 import { Name } from "../Constants";
 class Profile extends React.Component {
@@ -53,6 +53,7 @@ class Profile extends React.Component {
             </div>
           </Col>
         </Row>
+        <Button className='mt-4 mb-4 btn-dnld' href="https://drive.google.com/file/d/1az-VXPOy49x3dSLTVS1d9NJEjN-kVGWc/view?usp=sharing" target="_blank" color="info"><b>Download My Resume</b></Button>
       </div>
     );
   }

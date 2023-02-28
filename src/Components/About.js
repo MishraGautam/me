@@ -27,9 +27,9 @@ export default class About extends React.Component {
           opportunities in web development.
           <div>
             <div
-              style={{ backgroundColor: "rgb(45, 79, 66)", color: "#f4f0f0" }}
+              style={{ backgroundColor: "blue", color: "#f4f0f0" }}
             >
-              My last working day at Coalescence Technologies will be March 21th 2023.
+              <b>I'm currently serving notice period and my last working day at Coalescence Technologies will be March 21th 2023.</b>
             </div>
             I am eager to bring my skills and experience to a new organization
             and to take on new challenges that will help me to continue to grow

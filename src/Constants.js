@@ -156,7 +156,7 @@ export const GithubProjects = [
   {
     sr: "3",
     projectLink: "https://explorer.ovato.com/",
-    projectName: "Ovato Blockhain Explorer",
+    projectName: "Ovato Blockchain Explorer",
     languages: "React, Node, Express & Mongo"
   },
   {

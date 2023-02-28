@@ -300,3 +300,8 @@ section {
 .scrollable{
   overflow:auto;
 }
+
+.btn-dnld:hover{
+  color:white !important;
+  background-color: black !important;
+}
