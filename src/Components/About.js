@@ -29,7 +29,7 @@ export default class About extends React.Component {
             <div
               style={{ backgroundColor: "blue", color: "#f4f0f0" }}
             >
-              <b>I'm currently serving notice period and my last working day at Coalescence Technologies will be March 21th 2023.</b>
+              <b>I'm currently serving notice period and my last working day at Coalescence Technologies will be March 15th 2023.</b>
             </div>
             I am eager to bring my skills and experience to a new organization
             and to take on new challenges that will help me to continue to grow
