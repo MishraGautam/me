@@ -115,6 +115,38 @@ export const AwardsObject = [
     altText: "AWS Certified Cloud Practitioner - Recertified"
   },
   {
+    src: "/me/certificates/watsonx-ai-generative-ai-tools-sales-foundation.png",
+    altText: "watsonx.ai Generative AI Tools - Sales Foundation"
+  },
+  {
+    src: "/me/certificates/ibm-bob-practitioner-advanced.png",
+    altText: "IBM Bob - Practitioner Advanced"
+  },
+  {
+    src: "/me/certificates/Frontend react CL2.png",
+    altText: "Frontend React Competency - Level 2"
+  },
+  {
+    src: "/me/certificates/GenAI Lvl 4.png",
+    altText: "Generative AI Competency - Level 4"
+  },
+  {
+    src: "/me/certificates/ibm-bob-intermediate.png",
+    altText: "IBM Bob - Intermediate"
+  },
+  {
+    src: "/me/certificates/ibm-bob-sales-foundation.png",
+    altText: "IBM Bob - Sales Foundation"
+  },
+  {
+    src: "/me/certificates/defect destroyer.png",
+    altText: "IBM Defect Destroyer Badge"
+  },
+  {
+    src: "/me/certificates/Python certification udemy.jpg",
+    altText: "Udemy Python Programming Certification"
+  },
+  {
     src: "https://i.postimg.cc/Z5hYTv5S/incapp-java-core.jpg",
     altText: "incapp!"
   },
