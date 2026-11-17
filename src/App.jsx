@@ -103,16 +103,16 @@ export default function App() {
           <main className="lg:col-span-8 flex flex-col space-y-6">
             
             {/* Tab Switching Navigation Header (Desktop Only) */}
-            <nav className="hidden lg:flex items-center space-x-1 p-1.5 bg-slate-900/60 backdrop-blur-md rounded-2xl border border-slate-800 shadow-sm">
+            <nav className="hidden lg:flex flex-wrap items-center gap-2 p-2 bg-slate-900/60 backdrop-blur-md rounded-2xl border border-slate-800 shadow-sm">
               {tabs.map(tab => {
                 const TabIcon = tab.icon;
                 return (
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`flex items-center space-x-2 px-4.5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition duration-200 ${
-                      activeTab === tab.id 
-                        ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20' 
+                    className={`flex items-center space-x-2 px-5 py-3 rounded-xl text-xs font-bold uppercase tracking-wider transition duration-200 ${
+                      activeTab === tab.id
+                        ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20'
                         : 'text-slate-400 hover:bg-slate-800/50 hover:text-slate-100'
                     }`}
                   >
