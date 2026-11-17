@@ -38,12 +38,12 @@ export default function ProfileCard() {
       </h1>
       
       {/* Professional Title Badges */}
-      <div className="space-y-1 mb-6">
+      <div className="space-y-3 mb-6">
         <p className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
           Engineering Lead
         </p>
         <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-indigo-950/80 text-indigo-300 border border-indigo-900/60">
-          Full Stack Developer (MERN)
+          Persistent Systems || IBM Verify & IVIG || Enterprise IAM || 3x AWS Certified || 2x Azure Certified || 1x Google Certified || AWS Certified Architect || Coder
         </span>
       </div>
 

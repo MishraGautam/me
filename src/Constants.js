@@ -1,12 +1,15 @@
 export const ProgrammingSkills = [
-  { language: "Javascript", progress: "90" },
+  { language: "React", progress: "100" },
+  { language: "Node.js", progress: "90" },
+  { language: "Typescript", progress: "90" },
   { language: "Python", progress: "80" },
-  { language: "C", progress: "70" },
 ];
 
 export const MarkUpSkills = [
   { language: "HTML5", progress: "95" },
-  { language: "CSS3", progress: "90" }
+  { language: "CSS3", progress: "90" },
+  { language: "UI/UX", progress: "90" },
+  { language: "AI Agent skills", progress: "80" }
 ];
 
 export const Frameworks = [
@@ -32,7 +35,7 @@ export const IDE = [
   "Sublime Text",
 ];
 
-export const Tech = ["Angular", "DSA", "AWS"];
+export const Tech = ["AWS", "Angular", "DSA"];
 
 export const Name = "GAUTAM MISHRA";
 export const PhoneNumber = "+91-8707853340";

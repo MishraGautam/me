@@ -22,47 +22,51 @@ export default function SkillsTab() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Programming Languages */}
-        <div className="space-y-4.5 bg-slate-900/40 p-5 rounded-2xl border border-slate-900">
-          <h3 className="text-base font-bold text-slate-200 flex items-center gap-2 mb-3">
+        <div className="bg-slate-900/40 p-5 rounded-2xl border border-slate-900">
+          <h3 className="text-base font-bold text-slate-200 flex items-center gap-2 mb-4">
             <Terminal className="w-5 h-5 text-indigo-400" />
             Programming Languages
           </h3>
-          {Constants.ProgrammingSkills.map(skill => (
-            <div key={skill.language} className="space-y-1.5">
-              <div className="flex justify-between text-sm font-semibold">
-                <span className="text-slate-300">{skill.language}</span>
-                <span className="text-indigo-400">{skill.progress}%</span>
+          <div className="space-y-5">
+            {Constants.ProgrammingSkills.map(skill => (
+              <div key={skill.language} className="space-y-1.5">
+                <div className="flex justify-between text-sm font-semibold">
+                  <span className="text-slate-300">{skill.language}</span>
+                  <span className="text-indigo-400">{skill.progress}%</span>
+                </div>
+                <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full transition-all duration-1000"
+                    style={{ width: `${skill.progress}%` }}
+                  ></div>
+                </div>
               </div>
-              <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
-                <div 
-                  className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full transition-all duration-1000"
-                  style={{ width: `${skill.progress}%` }}
-                ></div>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* Markup Languages */}
-        <div className="space-y-4.5 bg-slate-900/40 p-5 rounded-2xl border border-slate-900">
-          <h3 className="text-base font-bold text-slate-200 flex items-center gap-2 mb-3">
+        <div className="bg-slate-900/40 p-5 rounded-2xl border border-slate-900">
+          <h3 className="text-base font-bold text-slate-200 flex items-center gap-2 mb-4">
             <Layers className="w-5 h-5 text-indigo-400" />
             Markup Languages
           </h3>
-          {Constants.MarkUpSkills.map(skill => (
-            <div key={skill.language} className="space-y-1.5">
-              <div className="flex justify-between text-sm font-semibold">
-                <span className="text-slate-300">{skill.language}</span>
-                <span className="text-purple-400">{skill.progress}%</span>
+          <div className="space-y-5">
+            {Constants.MarkUpSkills.map(skill => (
+              <div key={skill.language} className="space-y-1.5">
+                <div className="flex justify-between text-sm font-semibold">
+                  <span className="text-slate-300">{skill.language}</span>
+                  <span className="text-purple-400">{skill.progress}%</span>
+                </div>
+                <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-1000"
+                    style={{ width: `${skill.progress}%` }}
+                  ></div>
+                </div>
               </div>
-              <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
-                <div 
-                  className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-1000"
-                  style={{ width: `${skill.progress}%` }}
-                ></div>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
 
