@@ -124,11 +124,27 @@ export const AwardsObject = [
   },
   {
     src: "/me/certificates/Frontend react CL2.png",
-    altText: "Frontend React Competency - Level 2"
+    altText: "Frontend React Competency - Level 2 Badge"
+  },
+  {
+    src: "/me/certificates/REQ-096513_61459.png",
+    altText: "Persistent - Frontend React Competency - Level 2 Certificate"
   },
   {
     src: "/me/certificates/GenAI Lvl 4.png",
-    altText: "Generative AI Competency - Level 4"
+    altText: "Generative AI Competency - Level 4 Badge"
+  },
+  {
+    src: "/me/certificates/REQ-0109645_61459.png",
+    altText: "Persistent - GenAI Competency - Level 4 Certificate"
+  },
+  {
+    src: "/me/certificates/GenAI.png",
+    altText: "Generative AI Foundation Certification"
+  },
+  {
+    src: "/me/certificates/REQ-085449_61459.png",
+    altText: "Persistent - GenAI Assisted Coding (Amazon CodeWhisperer)"
   },
   {
     src: "/me/certificates/ibm-bob-intermediate-certificate.png",
@@ -165,6 +181,10 @@ export const AwardsObject = [
   {
     src: "/me/certificates/javascript.jpg",
     altText: "JavaScript Programming Certification"
+  },
+  {
+    src: "/me/certificates/typescript.jpg",
+    altText: "TypeScript Programming Certification"
   },
   {
     src: "/me/certificates/testing.jpg",
