@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import { 
-  Menu, 
-  X, 
-  Code, 
-  Briefcase, 
-  Terminal, 
-  GraduationCap, 
-  Award, 
-  GitPullRequest, 
-  Sparkles 
+import {
+  Menu,
+  X,
+  Code,
+  Briefcase,
+  Terminal,
+  GraduationCap,
+  Award,
+  Sparkles
 } from 'lucide-react';
 
 // Import modular components
@@ -18,7 +17,6 @@ import ExperienceTab from './components/ExperienceTab';
 import ProjectsTab from './components/ProjectsTab';
 import EducationTab from './components/EducationTab';
 import CertificationsTab from './components/CertificationsTab';
-import OpenSourceTab from './components/OpenSourceTab';
 import AboutTab from './components/AboutTab';
 import * as Constants from './Constants';
 
@@ -33,7 +31,6 @@ export default function App() {
     { id: 'projects', label: 'Projects', icon: Terminal, component: ProjectsTab },
     { id: 'education', label: 'Education', icon: GraduationCap, component: EducationTab },
     { id: 'certifications', label: 'Certifications', icon: Award, component: CertificationsTab },
-    { id: 'opensource', label: 'Open Source', icon: GitPullRequest, component: OpenSourceTab },
     { id: 'about', label: 'About Me', icon: Sparkles, component: AboutTab },
   ];
 
