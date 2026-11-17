@@ -13,20 +13,22 @@ This application has been fully upgraded from an old, static Create React App to
 ### Major Upgrades & Features:
 * 🌌 **Glow Ambient Lights**: Beautiful, glowing blur circles in the background that animate slowly, bringing a high-tech modern aesthetic to your profile.
 * 🔮 **Glassmorphism Panels**: Semi-transparent, blur-filtered containers with extremely fine borders (`glass-panel`) for a unified premium design language.
-* 🔍 **Interactive Project Showcase with Real-Time Search**: Instead of a basic static table, projects are presented as beautiful cards. Visitors can now **filter projects by language** (e.g. React Native, Node, Express, MongoDB) or **search by title** dynamically.
-* 🖼️ **Interactive Certifications Grid & Lightbox**: Certifications are displayed in a clean responsive grid. Clicking any card opens a beautifully centered **Lightbox modal** to inspect or save the credential directly.
-* 🛡️ **Robust Fallback Images**: Leverages custom React error boundary images. If external LinkedIn or university hotlinks break or are blocked, they automatically render elegant custom fallback vector icons.
+* 🧩 **Fully Modular Component Architecture**: The original monolothic app structure has been divided into clean, isolated, and reusable functional JSX components in `src/components/`.
+* 🔍 **Interactive Project Showcase with Real-Time Search**: Instead of a basic static list, projects are presented as responsive cards. Visitors can filter projects by language tags (e.g., React Native, Node, Express, MongoDB) or search by title dynamically.
+* 🖼️ **Full-Screen Lightbox Portal**: Certifications are displayed in a clean responsive grid. Clicking any card triggers a **React Portal** that mounts a beautifully centered lightbox modal directly at `document.body` level, bypassing container filter clips for a seamless mobile/desktop preview.
+* 🛡️ **Self-Hosted Local Assets**: All employer/college logos and certificate images are safely self-hosted within the `public/` directory (rather than externally hotlinked), preventing cross-domain `403 Forbidden` hotlink-blocking errors.
 * 📱 **Fluid Mobile Drawer**: Sidebar details and tabs automatically adapt with high-fidelity transitions to smaller screens with a clean custom drawer menu.
+* 🚀 **Clean Single Scrollbar**: Programmed global body/html rules to share a unified container scroll, and implemented `.scrollbar-none` CSS helpers to suppress awkward nested vertical/horizontal scroll tracks.
 
 ---
 
 ## 💻 Tech Stack
 
 * **Build Tooling:** [Vite 5.x](https://vitejs.dev/) (Instant dev starts and builds under 1s)
-* **Frontend Framework:** [React 18.x](https://react.dev/) (Functional components, optimized React Hooks, and `createRoot` rendering)
+* **Frontend Framework:** [React 18.x](https://react.dev/) (Functional components, optimized React Hooks, and React Portals)
 * **Styling Engine:** [Tailwind CSS 3.x](https://tailwindcss.com/) with custom Autoprefixer and PostCSS
 * **Icons Library:** [Lucide React](https://lucide.dev/) (Beautiful, vector-based SVG icons)
-* **Hosting:** GitHub Pages via the `gh-pages` library
+* **Hosting:** GitHub Pages via the automated `gh-pages` library
 
 ---
 
@@ -36,7 +38,7 @@ To run this repository on your local computer for customization:
 
 ### 1. Install Dependencies
 ```bash
-npm install --legacy-peer-deps
+npm install
 ```
 
 ### 2. Launch Local Dev Server
@@ -78,12 +80,25 @@ npm run deploy
 ├── postcss.config.js      # PostCSS configurations for Tailwind
 ├── tailwind.config.js     # Tailwind CSS scanning and theme configuration
 ├── vite.config.js         # Vite asset compilation and subdirectory routing
-├── public/                # Static public assets (Favicon, Manifest, Robots)
+├── public/                # Static public assets
+│   ├── certificates/      # 22+ local certificate credential images
+│   ├── logos/             # Local company & university logos
+│   ├── favicon.ico        
+│   └── manifest.json      
 └── src/
-    ├── App.jsx            # Main cohesive Single Page App (Layout, Timelines, Projects grid)
-    ├── Constants.js       # Core resume content (Skills, Experiences, Education details)
-    ├── index.jsx          # Entry script utilizing React 18 createRoot
-    └── styles.css         # CSS base with custom scrollbar, text gradients & animations
+    ├── App.jsx            # Core page coordinator, background graphics, and mobile drawer
+    ├── Constants.js       # Central data parameters (Resume arrays, contacts, skills)
+    ├── index.jsx          # React 18 entry client root
+    ├── styles.css         # Custom animations, text gradients, scrollbars, and body styling
+    └── components/        # Isolated panel components
+        ├── AboutTab.jsx           # Bio page featuring detailed IBM project highlights
+        ├── CertificationsTab.jsx  # Credentials grid with React Portal-mounted lightbox
+        ├── EducationTab.jsx       # Academic background timeline with local assets
+        ├── ExperienceTab.jsx      # Chronological career roadmap with local company logos
+        ├── ProfileCard.jsx        # Contact info card with glow indicators & resume actions
+        ├── ProjectsTab.jsx        # Deployed application showcase with search & filters
+        ├── SafeImage.jsx          # Custom fallback renderer to avoid broken hotlinks
+        └── SkillsTab.jsx          # Skill percentage matrix, frameworks, & tools
 ```
 
 ---
