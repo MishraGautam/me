@@ -99,7 +99,7 @@ export const AwardsObject = [
     altText: "AWS Certified Developer - Associate"
   },
   {
-    src: "/me/certificates/gen-ai leader google.png",
+    src: "/me/certificates/generative-ai-leader-certification.png",
     altText: "Google Cloud Certified - Generative AI Leader"
   },
   {
@@ -115,11 +115,11 @@ export const AwardsObject = [
     altText: "AWS Certified Cloud Practitioner - Recertified"
   },
   {
-    src: "/me/certificates/watsonx-ai-generative-ai-tools-sales-foundation.png",
+    src: "/me/certificates/watsonx-gen-ai-tools-sales-foundation certification.png",
     altText: "watsonx.ai Generative AI Tools - Sales Foundation"
   },
   {
-    src: "/me/certificates/ibm-bob-practitioner-advanced.png",
+    src: "/me/certificates/ibm-bob-practitioner-advanced certificate.png",
     altText: "IBM Bob - Practitioner Advanced"
   },
   {
@@ -131,16 +131,48 @@ export const AwardsObject = [
     altText: "Generative AI Competency - Level 4"
   },
   {
-    src: "/me/certificates/ibm-bob-intermediate.png",
+    src: "/me/certificates/ibm-bob-intermediate-certificate.png",
     altText: "IBM Bob - Intermediate"
   },
   {
-    src: "/me/certificates/ibm-bob-sales-foundation.png",
+    src: "/me/certificates/ibm-bob-sales-foundation-certificate.png",
     altText: "IBM Bob - Sales Foundation"
   },
   {
     src: "/me/certificates/defect destroyer.png",
-    altText: "IBM Defect Destroyer Badge"
+    altText: "IBM Defect Destroyer"
+  },
+  {
+    src: "/me/certificates/cloud_computing.jpg",
+    altText: "Cloud Computing Certification"
+  },
+  {
+    src: "/me/certificates/devops.jpg",
+    altText: "DevOps Certification"
+  },
+  {
+    src: "/me/certificates/git_certificate.jpg",
+    altText: "Git Version Control Certification"
+  },
+  {
+    src: "/me/certificates/html_css.jpg",
+    altText: "HTML5 & CSS3 Certification"
+  },
+  {
+    src: "/me/certificates/web_design.jpg",
+    altText: "Web Design Certification"
+  },
+  {
+    src: "/me/certificates/javascript.jpg",
+    altText: "JavaScript Programming Certification"
+  },
+  {
+    src: "/me/certificates/testing.jpg",
+    altText: "Software Testing Certification"
+  },
+  {
+    src: "/me/certificates/uiux.jpg",
+    altText: "UI/UX Design Certification"
   },
   {
     src: "/me/certificates/Python certification udemy.jpg",
