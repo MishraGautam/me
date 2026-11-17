@@ -91,8 +91,31 @@ export const EducationObject = [
 
 export const AwardsObject = [
   {
-    src:
-      "https://i.postimg.cc/Z5hYTv5S/incapp-java-core.jpg",
+    src: "/me/certificates/AWS certified solution architect associate.png",
+    altText: "AWS Certified Solutions Architect - Associate"
+  },
+  {
+    src: "/me/certificates/AWS Certified Developer associate.png",
+    altText: "AWS Certified Developer - Associate"
+  },
+  {
+    src: "/me/certificates/gen-ai leader google.png",
+    altText: "Google Cloud Certified - Generative AI Leader"
+  },
+  {
+    src: "/me/certificates/Azure AI Fundamentals Certificate.png",
+    altText: "Microsoft Certified: Azure AI Fundamentals"
+  },
+  {
+    src: "/me/certificates/Azure Fundamentals Certificate.png",
+    altText: "Microsoft Certified: Azure Fundamentals"
+  },
+  {
+    src: "/me/certificates/AWS CCP Re-certificate.png",
+    altText: "AWS Certified Cloud Practitioner - Recertified"
+  },
+  {
+    src: "https://i.postimg.cc/Z5hYTv5S/incapp-java-core.jpg",
     altText: "incapp!"
   },
   {
