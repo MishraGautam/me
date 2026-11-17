@@ -15,7 +15,7 @@ export default function AboutTab() {
 
       <div className="space-y-5 text-slate-300 text-sm md:text-base leading-relaxed">
         <p>
-          Hello visitor! My name is <strong className="text-white">{Constants.Name}</strong>, and I am a <strong className="text-white">Senior Software Engineer cum Full Stack Developer</strong> based in Mumbai, India.
+          Hello visitor! My name is <strong className="text-white">{Constants.Name}</strong>, and I am a <strong className="text-white">Engineering Lead</strong> based in Noida, India.
         </p>
         <p>
           With several years of industry experience, I have developed a deep, solid understanding of web, mobile, and backend architectures. I specialize in building highly responsive websites and robust API servers using the MERN stack (<strong className="text-indigo-400">MongoDB, Express, React, Node.js</strong>) alongside building native-feeling mobile applications with <strong className="text-indigo-400">React Native</strong> for both iOS and Android.

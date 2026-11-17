@@ -55,7 +55,7 @@ export default function App() {
             </div>
             <div>
               <h2 className="text-sm font-bold tracking-wide">{Constants.Name}</h2>
-              <p className="text-xs text-indigo-400 font-medium">Sr. Software Engineer</p>
+              <p className="text-xs text-indigo-400 font-medium">Engineering Lead</p>
             </div>
           </div>
           <button 

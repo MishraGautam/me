@@ -52,9 +52,8 @@ export default function ExperienceTab() {
                   <>
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-slate-300 border border-slate-800">NodeJS</span>
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-slate-300 border border-slate-800">ReactJS</span>
-                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-slate-300 border border-slate-800">React Native</span>
+                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-slate-300 border border-slate-800">Typescript</span>
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-slate-300 border border-slate-800">MongoDB</span>
-                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-slate-300 border border-slate-800">Blockchain</span>
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-slate-300 border border-slate-800">Team Leadership</span>
                   </>
                 ) : (

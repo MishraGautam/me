@@ -40,7 +40,7 @@ export default function ProfileCard() {
       {/* Professional Title Badges */}
       <div className="space-y-1 mb-6">
         <p className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
-          Sr. Software Engineer
+          Engineering Lead
         </p>
         <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-indigo-950/80 text-indigo-300 border border-indigo-900/60">
           Full Stack Developer (MERN)

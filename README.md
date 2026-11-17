@@ -1,6 +1,6 @@
-# ✨ Gautam Mishra — Modern Senior Software Engineer Portfolio
+# ✨ Gautam Mishra — Modern Engineering Lead Portfolio
 
-Welcome to the modernized personal portfolio repository for **Gautam Mishra | Senior Software Engineer & Full Stack Developer (MERN)**. 
+Welcome to the modernized personal portfolio repository for **Gautam Mishra | Engineering Lead**. 
 
 Live Website: 🌐 **[https://mishragautam.github.io/me/](https://mishragautam.github.io/me/)**
 
