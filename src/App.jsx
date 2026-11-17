@@ -45,7 +45,7 @@ export default function App() {
       <div className="absolute top-[40%] right-[20%] w-[400px] h-[400px] rounded-full bg-cyan-900/15 blur-[120px] pointer-events-none animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
 
       {/* Main Container */}
-      <div className="max-w-7xl mx-auto px-4 py-6 md:py-12 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 pt-6 pb-4 md:pt-10 md:pb-6 relative z-10">
         
         {/* Header (Mobile Navigation bar) */}
         <header className="flex items-center justify-between lg:hidden mb-6 bg-slate-900/60 backdrop-blur-md p-4 rounded-2xl border border-slate-800">
@@ -133,7 +133,7 @@ export default function App() {
         </div>
 
         {/* Global Footer */}
-        <footer className="mt-16 pt-8 border-t border-slate-900 text-center text-slate-500 text-xs space-y-2">
+        <footer className="mt-10 pt-6 border-t border-slate-900/60 text-center text-slate-500 text-xs space-y-2">
           <p>© {new Date().getFullYear()} Gautam Mishra. All rights reserved.</p>
           <p className="text-slate-600">Built using React 18, Tailwind CSS, Vite & Lucide Icons.</p>
         </footer>
