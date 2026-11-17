@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# ✨ Gautam Mishra — Modern Senior Software Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the modernized personal portfolio repository for **Gautam Mishra | Senior Software Engineer & Full Stack Developer (MERN)**. 
 
-## Available Scripts
+Live Website: 🌐 **[https://mishragautam.github.io/me/](https://mishragautam.github.io/me/)**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎨 Modern Aesthetic Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application has been fully upgraded from an old, static Create React App to a cutting-edge **Vite + React 18 + Tailwind CSS** setup.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Major Upgrades & Features:
+* 🌌 **Glow Ambient Lights**: Beautiful, glowing blur circles in the background that animate slowly, bringing a high-tech modern aesthetic to your profile.
+* 🔮 **Glassmorphism Panels**: Semi-transparent, blur-filtered containers with extremely fine borders (`glass-panel`) for a unified premium design language.
+* 🔍 **Interactive Project Showcase with Real-Time Search**: Instead of a basic static table, projects are presented as beautiful cards. Visitors can now **filter projects by language** (e.g. React Native, Node, Express, MongoDB) or **search by title** dynamically.
+* 🖼️ **Interactive Certifications Grid & Lightbox**: Certifications are displayed in a clean responsive grid. Clicking any card opens a beautifully centered **Lightbox modal** to inspect or save the credential directly.
+* 🛡️ **Robust Fallback Images**: Leverages custom React error boundary images. If external LinkedIn or university hotlinks break or are blocked, they automatically render elegant custom fallback vector icons.
+* 📱 **Fluid Mobile Drawer**: Sidebar details and tabs automatically adapt with high-fidelity transitions to smaller screens with a clean custom drawer menu.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Tech Stack
 
-### `npm run build`
+* **Build Tooling:** [Vite 5.x](https://vitejs.dev/) (Instant dev starts and builds under 1s)
+* **Frontend Framework:** [React 18.x](https://react.dev/) (Functional components, optimized React Hooks, and `createRoot` rendering)
+* **Styling Engine:** [Tailwind CSS 3.x](https://tailwindcss.com/) with custom Autoprefixer and PostCSS
+* **Icons Library:** [Lucide React](https://lucide.dev/) (Beautiful, vector-based SVG icons)
+* **Hosting:** GitHub Pages via the `gh-pages` library
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Local Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this repository on your local computer for customization:
 
-### `npm run eject`
+### 1. Install Dependencies
+```bash
+npm install --legacy-peer-deps
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Launch Local Dev Server
+```bash
+npm run dev
+```
+Open **`http://localhost:5173/me/`** in your browser. Vite's hot-module replacement (HMR) allows you to see edits to your code instantly!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Production Compilation Check
+```bash
+npm run build
+```
+*(This compiles your code into lightweight, compressed bundles inside the `/dist` directory in just a fraction of a second.)*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 One-Command Automatic Deployment
 
-## Learn More
+We have fully automated your deployment process inside `package.json`. To push your latest changes live, simply run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run deploy
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What this does automatically:
+1. Triggers `npm run build` (via the automated `predeploy` hook) to build fresh production files in the `/dist` folder.
+2. Commits and pushes the `/dist` bundle directly to your GitHub repository's `gh-pages` branch.
+3. Your update is live in under 1-2 minutes at [`https://mishragautam.github.io/me/`](https://mishragautam.github.io/me/)!
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Project Structure
 
-### Analyzing the Bundle Size
+```text
+├── DEPLOYMENT.md          # Detailed deployment guidelines & troubleshooting
+├── README.md              # Project overview (You are here)
+├── index.html             # Main entry HTML template with Google web fonts
+├── package.json           # Scripts, dependencies, and deployment paths
+├── postcss.config.js      # PostCSS configurations for Tailwind
+├── tailwind.config.js     # Tailwind CSS scanning and theme configuration
+├── vite.config.js         # Vite asset compilation and subdirectory routing
+├── public/                # Static public assets (Favicon, Manifest, Robots)
+└── src/
+    ├── App.jsx            # Main cohesive Single Page App (Layout, Timelines, Projects grid)
+    ├── Constants.js       # Core resume content (Skills, Experiences, Education details)
+    ├── index.jsx          # Entry script utilizing React 18 createRoot
+    └── styles.css         # CSS base with custom scrollbar, text gradients & animations
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Created with 💙 for Gautam Mishra's Engineering Portfolio.*
