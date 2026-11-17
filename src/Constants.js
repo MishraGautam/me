@@ -47,22 +47,21 @@ export const ExperienceObject = [
     company: "Persistent Systems Ltd.",
     date: "March 2023 – Present",
     role: "Engineering Lead",
-    imageSrc: "https://media.licdn.com/dms/image/v2/C4D0BAQEiUjDskp0Q1Q/company-logo_200_200/company-logo_200_200/0/1630534241072?e=2147483647&v=beta&t=Z1O9U59rOunpWbE0w3N_XbS1qD3E3gG9u2Wf1Zp8P3I",
+    imageSrc: "/me/logos/persistent.jpeg",
     desc: "Responsible for full-lifecycle software engineering and UI development on core IBM enterprise product lines. Key systems and initiatives include:\n\n• IBM Planning Analytics AWS: Engineered full-stack modules using Next.js, Nest.js, TypeScript, Python, and Yarn. Developed responsive UIs leveraging the IBM Carbon Design System. Worked with Docker, Kubernetes, Glass Server, Red Hat, AWS, Azure, and Generative AI integrations.\n\n• IBM Product Engineering: Developed enterprise application frontends and configured CI/CD micro-frontend pipelines via Jenkins. Authored comprehensive High-Level and Low-Level Design (HLD/LLD) technical documentation.\n\n• IBM Product Engineering (Support): Authored responsive views, led unit testing suites, and managed agile delivery on support application modules."
   },
   {
     company: "Coalescence Technologies",
     date: "Sep 2021 – March 2023",
     role: "Sr. Software Engineer (Full stack developer)",
-    imageSrc:
-      "https://media.licdn.com/dms/image/C4E0BAQHWq9HBaNpGSA/company-logo_200_200/0/1603924726074?e=2147483647&v=beta&t=2_b5NJZ5JVFTq1pmiE4GP-sOor0I39556ofsrzK_tZI",
+    imageSrc: "/me/logos/coalescence.jpeg",
     desc: "Working for Coalescence Technologies in a complete agile environment. Responsible for designing and implementing new innovative features and functionalities, establishing the MongoDB, Express, React and Node.js - MERN Stack website’s architecture, ensuring high-performance and availability, and managing all MERN Stack development & technical aspects. Wrrking with a Blockchain client and making back-end with Node, Express and Mongo doing inegration in front-end for them. I work closely with project stack holders and end customers to ensure an effective, visually appealing, and intuitive implementation. Also worked in app development with React-Native. Making from scratches to doing live on app store an play store. Also leading a team of 9 members to mentor, guide and assign them project tasks."
   },
   {
     company: "Coalescence Technologies",
     date: "March 2020 – Aug 2021",
     role: "Jr. Software Developer",
-    imageSrc: "https://media.licdn.com/dms/image/C4E0BAQHWq9HBaNpGSA/company-logo_200_200/0/1603924726074?e=2147483647&v=beta&t=2_b5NJZ5JVFTq1pmiE4GP-sOor0I39556ofsrzK_tZI",
+    imageSrc: "/me/logos/coalescence.jpeg",
     desc: "Worked for Coalescence Technologies in a complete agile environment. Developed UI for Web applications with the React.js using Javascript with ES6/ES7 concepts. Writing tested document with React.js, JavaScript, HTML, CSS, SCSS. Made design and technical decisions for React projects/works. Writing routes in Backend, APIs."
   },
 ];
@@ -74,14 +73,13 @@ export const EducationObject = [
     date: "AUG 2017 - JUNE 2020",
     role: "Masters in Computer Application (MCA)",
     college: "Galgotias Collage of Engineering & Technology, Greater Noida ",
-    imageSrc:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAABQVBMVEX///+XHB+gMilVqtNHo89jsddxudqAwN6Ox+I4nMsqlcgcjsSbzeUICAjG4/C0XmCbJikiIiLKysqq1Ol3d3fDw8NVVVVlZWWrXF/CWlujPkE0NDTb29uqRUe7XV4AicHk5OSeSEugUFTYSkby8vJFRUXBeHr06OjTT03x+Pvqp1HfRDyqqqqIiIgBqti5Z2jLVFTRmprxni3j8fi43OzsvEzsoUPw3d3Ff4HdtrflPzPjw8TuoDjpqlX41CfptlX1yjGdnZ2lPTSiNTfNlJXqlUTnkVDos1jyxT2qRD3zxzb98+XZrK3jjFr55Mb1zZXxzXjpz9AsfK322KfuunT33o3327r56LLimpn0zVL888+7QDrwuGnuup48jbrvtov410XdYVw2u+DjiIK9OC3po3nyybGNtNCoxdltmb3qZVsl7Cb0AAAXTUlEQVR4nO2dCXva1raGBZqFQMzYBit2LMADBBOIgeDEsaFxbNMkZGrT49PeNLft6f3/P+B+a2sGPJznHALtw3LjIGlvab17DXttSSkct5KVrGQlK4FUx72+ZX+8ev3+Dcnvn66qi1Xq35bquLm21mRaX72/Pjp+/PjxMeS7717+8ulq0crdW6qj4drDhzbG+2vo/9gWB+Xlb7//JViqTVA8rIzp8/tnR8dHpP9xgAQo3/9z6VGs0cXDtbW1IUXH6w/7+0eQEAlxgOT735c7WsbGGXGM8PHqzT6TEIprEpD81lm0srdIM3oGjLUePl5d77syyybfQ35ftLo3SbUSjZqGbY/XzyCTKEdH7iZgQPLPRWs8W8ZmNHoBjiY+f3pmy77vXvtPTk7Oz8/tnUT2cklJxhfEYRhdy7FHEOXo1StwAOTZ+fX1h+tnto2+W0YS4jgDR6NK8XEeInny4sWrJwB5++bTlSOv33/ANHn8crxovSeFOGAQ06BA/3DOxAE5+fz8xeWrJ29/mJw7Xn84eny0ZBNKlTjOTNMcYuP9uSvgOH8LjheXH3+a1Q0p+sM31vQOMcARXQcIJocrxAL9MJIPH//n+fPnH28c96s3S2WSIXFcrK+vU+Z9e+IKOH4Ax+dpa+xBvr2ad0r/jBlkfd1EpL8+8UHeEsfHcONWRhZVJqKcWIy+N4l1wQxyeHhoG+QJMhQl25O3r+FWIXO0MmLsQUB+/qO1IKVnSZc4oruHh2SQqyeenLyGPX4INNzTH8UgQZJ3P/9rYXpPypg51hlAfsTWWx/k/ecXL4IcGYYxAfLu3R/WojSfkAozyOHu7m4fW09eOfLk49vLywBHS9ZIbJAAz7t3fy5H3I+jtkF2d79QccIgLvHn89tXrwJx3npE8U0gmuZ88Kzyx+K0D4htkIvdnV3yrI+guLx8cXn56jOcy58jEo8cEE0V6SNAmIE0RrIM2atjR8jhzs4O1U0fQcHk8vPJE9+xWo8eMRJNlEX6+EjUMwkmGV1W3/28BGHSdDxr5+AL5azPjANFyXMkYM8ge78+sklkmf6WE6Go2LP+tXiTWIbjWQcHXzkCIQySFycn771WTH0igDl+1Zdp6vDEDvXo5sHBUwqRny4djuevzn2DJBwOUQXLUmK4nhXdfvr0KRXwP7kcz0/O/br2VwdEU39dvA/dILZnRdefPj2gWPdAXpyfe57V9jjEJTUH1iFndqwDZIduVHkgr5498zxLdDhi8gI1vUP60SkQm+TJs3MX+EmQ2DJzuCFCIP9H216wn+x/cEF0lnljD5aZw5nWGcgX2r6ypxGEiL+GZauP2AMx3NOqdvCzBBOhLU6sR9cPDmwQe0J8cfnMB2GlyQMtGOfVXvNrAwtjs/tjbzlYzAkQ7u0rVqO82vdAWqoGjge616fa65rrthziT2O0DCgXLsjOzhd2e90uGi8DIAmq3R+oblHSGRqwBEHYgk/dJbg"
+    imageSrc: "/me/logos/galgotias.jpeg"
   },
   {
     date: "JUL 2014 - JUNE 2017",
     role: "Bachelor of Science (B.Sc) - Mathematics",
     college: "Mahatma Gandhi Kashi Vidyapeeth University, Varanasi",
-    imageSrc: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Mahatma_Gandhi_Kashi_Vidyapith_logo.png/220px-Mahatma_Gandhi_Kashi_Vidyapith_logo.png",
+    imageSrc: "/me/logos/mgkvp.jpeg",
     desc: `
       As a Bachelor of Science student, I gained a strong foundation in various scientific disciplines, including mathematics, chemistry, and physics. I also participated in laboratory experiments, honing my technical and problem-solving skills, and presenting my findings in group presentations.`
   }
@@ -99,7 +97,7 @@ export const AwardsObject = [
     altText: "AWS Certified Developer - Associate"
   },
   {
-    src: "/me/certificates/generative-ai-leader-certification.png",
+    src: "/me/certificates/gen-ai leader google.png",
     altText: "Google Cloud Certified - Generative AI Leader"
   },
   {
@@ -153,10 +151,6 @@ export const AwardsObject = [
   {
     src: "/me/certificates/ibm-bob-sales-foundation-certificate.png",
     altText: "IBM Bob - Sales Foundation"
-  },
-  {
-    src: "/me/certificates/defect destroyer.png",
-    altText: "IBM Defect Destroyer"
   },
   {
     src: "/me/certificates/cloud_computing.jpg",
